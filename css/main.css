@@ -1,0 +1,40 @@
+* {margin:0;padding:0; vertical-align:middle;}
+
+body {
+　　　margin:0;
+　　　padding:0;
+　　　font-family: "Dotum", Arial,serif;
+　　　font-size: 1em;
+　　　color: #666;
+　　　background-color: #FFF;
+}
+img {border:none;}
+a {text-decoration: none;color: #666;}
+a:hover {color: #F60;text-decoration: none;}
+.clear{clear:both;}
+header {
+　　　margin-top:20px;
+}
+header #logo {
+margin-left:10px;
+float:left;
+}
+
+header #head_link {
+float:right;
+}
+
+header #search{
+  margin:0; /* 마진 0 */
+  padding:0; /* 패딩 0 */
+  float:right; /* 오른쪽 정렬 */
+}
+
+header #head_link ul {
+list-style:none; /* 리스트 스타일 제거 */
+}
+header #head_link li {
+float:left; /* 정렬을 왼쪽부터 해줌으로써 순서 결정 */
+padding:0 8px; /* 패딩값을 상하 0 좌우 8픽셀 적용 */
+border-right:1px solid #999; /* 각 메뉴 사이에 구분선 적용 */
+}
